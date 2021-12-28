@@ -1,12 +1,12 @@
 <!DOCTYPE html
   SYSTEM "about:legacy-compat">
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2021"><meta name="generator" content="DITA-OT"><meta name="description" content="Use the tab JavaScript plugin to extend Bootstrap's navigational tabs and pills to create tabbable panes of local content."><meta name="keywords" content="Tabbed Dialog, CSS, outputclass, bodydiv, section"><title>Tabbed Dialogs</title>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2021"><meta name="generator" content="DITA-OT"><meta name="description" content="Use the tab JavaScript plugin to extend Bootstrap’s navigational tabs and pills to create tabbable panes of local content."><meta name="keywords" content="Tabbed Dialog, CSS, outputclass, bodydiv, section"><title>Tabbed Dialogs</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="css/commonltr.css"><link rel="stylesheet" type="text/css" href="css/theme.css"><link rel="stylesheet" type="text/css" href="./css/common-extended.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"></head><body id="tabs"><header role="banner"><nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
 
   <div class="container">
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="https://infotexture.github.io/dita-bootstrap">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
         <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"></path>
         <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"></path>
@@ -18,53 +18,47 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link" href="https://www.dita-ot.org/dev">Docs</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.dita-ot.org/download">Download</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://www.dita-ot.org/plugins">Plugins</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://getbootstrap.com/docs/5.0">Bootstrap 5.0</a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.dita-ot.org/plugins#!net.infotexture.dita-bootstrap">Plugin</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/infotexture/dita-bootstrap/releases">Releases</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/infotexture/dita-bootstrap">Source</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://getbootstrap.com/docs/5.0">Bootstrap Docs</a>
+        </li>
       </ul>
     </div>
   </div>
-</nav></header><div class="container" id="content"><div class="row"><nav role="toc" class="col-lg-3"><div class="list-group me-3"><span class="list-group-item list-group-item-dark">Getting Started</span><a class="list-group-item list-group-item-action" href="index.html">DITA Bootstrap</a><span class="list-group-item list-group-item-dark">Layout</span><a class="list-group-item list-group-item-action" href="grid.html">Grid System</a><span class="list-group-item list-group-item-dark">Content</span><a class="list-group-item list-group-item-action" href="images.html">Images</a><a class="list-group-item list-group-item-action" href="tables.html">Tables</a><span class="list-group-item list-group-item-dark">Components</span><a class="list-group-item list-group-item-action" href="accordion.html">Accordion</a><a class="list-group-item list-group-item-action" href="alerts.html">Alerts</a><a class="list-group-item list-group-item-action" href="badge.html">Badges</a><a class="list-group-item list-group-item-action" href="buttons.html">Buttons</a><a class="list-group-item list-group-item-action" href="button-group.html">Button Group</a><a class="list-group-item list-group-item-action" href="card.html">Cards</a><a class="list-group-item list-group-item-action" href="carousel.html">Carousel</a><a class="list-group-item list-group-item-action" href="list-group.html">List Group</a><a class="list-group-item list-group-item-action" href="offcanvas.html">Offcanvas</a><a class="list-group-item list-group-item-action active" href="tabs.html">Tabbed Dialogs</a><span class="list-group-item list-group-item-dark">Utilities</span><a class="list-group-item list-group-item-action" href="utilities.html">Borders, Color and Background</a><span class="list-group-item list-group-item-dark">Extend</span><a class="list-group-item list-group-item-action" href="icons.html">Icons</a></div></nav><main role="main" class="col-lg-9"><article role="article" aria-labelledby="ariaid-title1">
+</nav></header><div class="container" id="content"><div class="row"><nav role="navigation" class="col-lg-3"><div class="list-group me-3"><span class="list-group-item list-group-item-dark">Getting Started</span><a class="list-group-item list-group-item-action" href="index.html">DITA Bootstrap</a><span class="list-group-item list-group-item-dark">Layout</span><a class="list-group-item list-group-item-action" href="grid.html">Grid System</a><span class="list-group-item list-group-item-dark">Content</span><a class="list-group-item list-group-item-action" href="images.html">Images</a><a class="list-group-item list-group-item-action" href="tables.html">Tables</a><span class="list-group-item list-group-item-dark">Components</span><a class="list-group-item list-group-item-action" href="accordion.html">Accordion</a><a class="list-group-item list-group-item-action" href="alerts.html">Alerts</a><a class="list-group-item list-group-item-action" href="badge.html">Badges</a><a class="list-group-item list-group-item-action" href="buttons.html">Buttons</a><a class="list-group-item list-group-item-action" href="button-group.html">Button Group</a><a class="list-group-item list-group-item-action" href="card.html">Cards</a><a class="list-group-item list-group-item-action" href="carousel.html">Carousel</a><a class="list-group-item list-group-item-action" href="list-group.html">List Group</a><a class="list-group-item list-group-item-action" href="offcanvas.html">Offcanvas</a><a class="list-group-item list-group-item-action active" href="tabs.html">Tabbed Dialogs</a><span class="list-group-item list-group-item-dark">Utilities</span><a class="list-group-item list-group-item-action" href="utilities.html">Borders, Color and Background</a><span class="list-group-item list-group-item-dark">Extend</span><a class="list-group-item list-group-item-action" href="icons.html">Icons</a></div></nav><main role="main" class="col-lg-9"><article role="article" aria-labelledby="ariaid-title1">
   <h1 class="title text-dark" id="ariaid-title1">Tabbed Dialogs</h1>
   
   
-  <div class="body language-markup"><p class="shortdesc text-muted lead">
-     Use the tab JavaScript plugin to extend Bootstrap's navigational tabs and pills
-     to create tabbable panes of local content.
-  </p>
+  <div class="body language-markup"><p class="shortdesc text-muted lead">Use the tab JavaScript plugin to extend Bootstrap’s navigational tabs and pills to create tabbable panes of
+    local content.</p>
     <section class="section"><h2 class="title text-dark">Basic example</h2>
       
-      <p class="p">
-         The following example shows a simple tabbed dialog using a <code class="keyword markupname xmlelement">&lt;bodydiv
-         outputclass="nav-tabs"&gt;</code> element containing a series of
-         <code class="keyword markupname xmlelement">&lt;section&gt;</code> elements
+      <p class="p">The following example shows a simple tabbed dialog using a <code class="keyword markupname xmlelement">&lt;bodydiv
+          outputclass="nav-tabs"&gt;</code> element containing a series of <code class="keyword markupname xmlelement">&lt;section&gt;</code> elements
       </p>
     </section>
     <div class="bodydiv bd-example">
-      <ul role="tablist" class="bodydiv nav nav-tabs"><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__2" data-bs-target="#tab_tabs__section__2" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__3" data-bs-target="#tab_tabs__section__3" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__4" data-bs-target="#tab_tabs__section__4" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__2" aria-labelledby="heading_tabs__section__2"><p class="p">
-             Placeholder content for the tab panel. This one relates to the home tab. Takes
-             you miles high, so high, 'cause she’s got that one international smile. There's
-             a stranger in my bed, there's a pounding in my head. Oh, no. In another life I
-             would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my
-             crowning battle. Used to steal your parents' liquor and climb to the roof.
-             Tone, tan fit and ready, turn it up cause its gettin' heavy. Her love is like a
-             drug. I guess that I forgot I had a choice
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__3" aria-labelledby="heading_tabs__section__3"><p class="p">
-             Placeholder content for the tab panel. This one relates to the profile tab. You
-             got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh,
-             fierce, we got it on lock. Never planned that one day I'd be losing you. She
-             eats your heart out. Your kiss is cosmic, every move is magic. I mean the ones,
-             I mean like she's the one. Greetings loved ones let's take a journey. Just own
-             the night like the 4th of July! But you'd rather get wasted.
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__4" aria-labelledby="heading_tabs__section__4"><p class="p">
-             Placeholder content for the tab panel. This one relates to the contact tab. Her
-             love is like a drug. All my girls vintage Chanel baby. Got a motel and built a
-             fort out of sheets. 'Cause she's the muse and the artist. (This is how we do)
-             So you wanna play with magic. So just be sure before you give it all to me. I'm
-             walking, I'm walking on air (tonight). Skip the talk, heard it all, time to
-             walk the walk. Catch her if you can. Stinging like a bee I earned my stripes.
-          </p></div></div>
+      <ul role="tablist" class="bodydiv nav nav-tabs"><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__2" data-bs-target="#tab_tabs__section__2" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__3" data-bs-target="#tab_tabs__section__3" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__4" data-bs-target="#tab_tabs__section__4" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__2" aria-labelledby="heading_tabs__section__2"><p class="p">Placeholder content for the tab panel. This one relates to the home tab. Takes you miles high, so high,
+            'cause she’s got that one international smile. There’s a stranger in my bed, there’s a pounding in my head.
+            Oh, no. In another life I would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my crowning
+            battle. Used to steal your parents' liquor and climb to the roof. Tone, tan fit and ready, turn it up cause
+            its gettin' heavy. Her love is like a drug. I guess that I forgot I had a choice</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__3" aria-labelledby="heading_tabs__section__3"><p class="p">Placeholder content for the tab panel. This one relates to the profile tab. You got the finest
+            architecture. Passport stamps, she’s cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned
+            that one day I'd be losing you. She eats your heart out. Your kiss is cosmic, every move is magic. I mean
+            the ones, I mean like she’s the one. Greetings loved ones let’s take a journey. Just own the night like the
+            4th of July! But you'd rather get wasted.</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__4" aria-labelledby="heading_tabs__section__4"><p class="p">Placeholder content for the tab panel. This one relates to the contact tab. Her love is like a drug. All my
+            girls vintage Chanel baby. Got a motel and built a fort out of sheets. 'Cause she’s the muse and the artist.
+            (This is how we do) So you wanna play with magic. So just be sure before you give it all to me. I'm walking,
+            I'm walking on air (tonight). Skip the talk, heard it all, time to walk the walk. Catch her if you can.
+            Stinging like a bee I earned my stripes.</p></div></div>
     </div>
     <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>bodydiv</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>nav-tabs<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>section</span><span class="ph token punctuation">&gt;</span></span>
@@ -80,34 +74,22 @@
     ...etc
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>section</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>bodydiv</span><span class="ph token punctuation">&gt;</span></span></code></pre>
-    <p class="p">
-       The tabs plugin also works with pills using <code class="keyword markupname xmlelement">&lt;bodydiv
-       outputclass="nav-pills"&gt;</code>
+    <p class="p">The tabs plugin also works with pills using <code class="keyword markupname xmlelement">&lt;bodydiv outputclass="nav-pills"&gt;</code>
     </p>
     <div class="bodydiv bd-example">
-      <ul role="tablist" class="bodydiv nav nav-pills"><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__5" data-bs-target="#tab_tabs__section__5" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__6" data-bs-target="#tab_tabs__section__6" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__7" data-bs-target="#tab_tabs__section__7" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__5" aria-labelledby="heading_tabs__section__5"><p class="p">
-             Placeholder content for the tab panel. This one relates to the home tab. Takes
-             you miles high, so high, 'cause she’s got that one international smile. There's
-             a stranger in my bed, there's a pounding in my head. Oh, no. In another life I
-             would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my
-             crowning battle. Used to steal your parents' liquor and climb to the roof.
-             Tone, tan fit and ready, turn it up cause its gettin' heavy. Her love is like a
-             drug. I guess that I forgot I had a choice
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__6" aria-labelledby="heading_tabs__section__6"><p class="p">
-             Placeholder content for the tab panel. This one relates to the profile tab. You
-             got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh,
-             fierce, we got it on lock. Never planned that one day I'd be losing you. She
-             eats your heart out. Your kiss is cosmic, every move is magic. I mean the ones,
-             I mean like she's the one. Greetings loved ones let's take a journey. Just own
-             the night like the 4th of July! But you'd rather get wasted.
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__7" aria-labelledby="heading_tabs__section__7"><p class="p">
-             Placeholder content for the tab panel. This one relates to the contact tab. Her
-             love is like a drug. All my girls vintage Chanel baby. Got a motel and built a
-             fort out of sheets. 'Cause she's the muse and the artist. (This is how we do)
-             So you wanna play with magic. So just be sure before you give it all to me. I'm
-             walking, I'm walking on air (tonight). Skip the talk, heard it all, time to
-             walk the walk. Catch her if you can. Stinging like a bee I earned my stripes.
-          </p></div></div>
+      <ul role="tablist" class="bodydiv nav nav-pills"><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__5" data-bs-target="#tab_tabs__section__5" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__6" data-bs-target="#tab_tabs__section__6" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button></li><li class="nav-item" role="presentation"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__7" data-bs-target="#tab_tabs__section__7" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></li></ul><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__5" aria-labelledby="heading_tabs__section__5"><p class="p">Placeholder content for the tab panel. This one relates to the home tab. Takes you miles high, so high,
+            'cause she’s got that one international smile. There’s a stranger in my bed, there’s a pounding in my head.
+            Oh, no. In another life I would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my crowning
+            battle. Used to steal your parents' liquor and climb to the roof. Tone, tan fit and ready, turn it up cause
+            its gettin' heavy. Her love is like a drug. I guess that I forgot I had a choice</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__6" aria-labelledby="heading_tabs__section__6"><p class="p">Placeholder content for the tab panel. This one relates to the profile tab. You got the finest
+            architecture. Passport stamps, she’s cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned
+            that one day I'd be losing you. She eats your heart out. Your kiss is cosmic, every move is magic. I mean
+            the ones, I mean like she’s the one. Greetings loved ones let’s take a journey. Just own the night like the
+            4th of July! But you'd rather get wasted.</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__7" aria-labelledby="heading_tabs__section__7"><p class="p">Placeholder content for the tab panel. This one relates to the contact tab. Her love is like a drug. All my
+            girls vintage Chanel baby. Got a motel and built a fort out of sheets. 'Cause she’s the muse and the artist.
+            (This is how we do) So you wanna play with magic. So just be sure before you give it all to me. I'm walking,
+            I'm walking on air (tonight). Skip the talk, heard it all, time to walk the walk. Catch her if you can.
+            Stinging like a bee I earned my stripes.</p></div></div>
     </div>
     <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>bodydiv</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>nav-pills<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>section</span><span class="ph token punctuation">&gt;</span></span>
@@ -123,33 +105,22 @@
     ...etc
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>section</span><span class="ph token punctuation">&gt;</span></span>
 <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>bodydiv</span><span class="ph token punctuation">&gt;</span></span></code></pre>
-    <p class="p">
-       And with vertical pills using <code class="keyword markupname xmlelement">&lt;bodydiv outputclass="nav-pills-vertical"&gt;</code>
+    <p class="p">And with vertical pills using <code class="keyword markupname xmlelement">&lt;bodydiv outputclass="nav-pills-vertical"&gt;</code>
     </p>
     <div class="bodydiv bd-example">
-      <div class="d-flex align-items-start"><div role="tablist" aria-orientation="vertical" class="bodydiv nav flex-column nav-pills me-3 nav-pills-vertical"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__8" data-bs-target="#tab_tabs__section__8" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__9" data-bs-target="#tab_tabs__section__9" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__10" data-bs-target="#tab_tabs__section__10" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></div><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__8" aria-labelledby="heading_tabs__section__8"><p class="p">
-             Placeholder content for the tab panel. This one relates to the home tab. Takes
-             you miles high, so high, 'cause she’s got that one international smile. There's
-             a stranger in my bed, there's a pounding in my head. Oh, no. In another life I
-             would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my
-             crowning battle. Used to steal your parents' liquor and climb to the roof.
-             Tone, tan fit and ready, turn it up cause its gettin' heavy. Her love is like a
-             drug. I guess that I forgot I had a choice
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__9" aria-labelledby="heading_tabs__section__9"><p class="p">
-             Placeholder content for the tab panel. This one relates to the profile tab. You
-             got the finest architecture. Passport stamps, she's cosmopolitan. Fine, fresh,
-             fierce, we got it on lock. Never planned that one day I'd be losing you. She
-             eats your heart out. Your kiss is cosmic, every move is magic. I mean the ones,
-             I mean like she's the one. Greetings loved ones let's take a journey. Just own
-             the night like the 4th of July! But you'd rather get wasted.
-          </p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__10" aria-labelledby="heading_tabs__section__10"><p class="p">
-             Placeholder content for the tab panel. This one relates to the contact tab. Her
-             love is like a drug. All my girls vintage Chanel baby. Got a motel and built a
-             fort out of sheets. 'Cause she's the muse and the artist. (This is how we do)
-             So you wanna play with magic. So just be sure before you give it all to me. I'm
-             walking, I'm walking on air (tonight). Skip the talk, heard it all, time to
-             walk the walk. Catch her if you can. Stinging like a bee I earned my stripes.
-          </p></div></div></div>
+      <div class="d-flex align-items-start"><div role="tablist" aria-orientation="vertical" class="bodydiv nav flex-column nav-pills me-3 nav-pills-vertical"><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__8" data-bs-target="#tab_tabs__section__8" class="nav-link active" aria-selected="true" aria-controls="Home">Home</button><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__9" data-bs-target="#tab_tabs__section__9" class="nav-link" aria-selected="false" aria-controls="Profile">Profile</button><button data-bs-toggle="tab" type="button" role="tab" id="heading_tabs__section__10" data-bs-target="#tab_tabs__section__10" class="nav-link" aria-selected="false" aria-controls="Contact">Contact</button></div><div class="tab-content"><div role="tabpanel" class="tab-pane fade show active" id="tab_tabs__section__8" aria-labelledby="heading_tabs__section__8"><p class="p">Placeholder content for the tab panel. This one relates to the home tab. Takes you miles high, so high,
+            'cause she’s got that one international smile. There’s a stranger in my bed, there’s a pounding in my head.
+            Oh, no. In another life I would make you stay. ‘Cause I, I’m capable of anything. Suiting up for my crowning
+            battle. Used to steal your parents' liquor and climb to the roof. Tone, tan fit and ready, turn it up cause
+            its gettin' heavy. Her love is like a drug. I guess that I forgot I had a choice</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__9" aria-labelledby="heading_tabs__section__9"><p class="p">Placeholder content for the tab panel. This one relates to the profile tab. You got the finest
+            architecture. Passport stamps, she’s cosmopolitan. Fine, fresh, fierce, we got it on lock. Never planned
+            that one day I'd be losing you. She eats your heart out. Your kiss is cosmic, every move is magic. I mean
+            the ones, I mean like she’s the one. Greetings loved ones let’s take a journey. Just own the night like the
+            4th of July! But you'd rather get wasted.</p></div><div role="tabpanel" class="tab-pane fade" id="tab_tabs__section__10" aria-labelledby="heading_tabs__section__10"><p class="p">Placeholder content for the tab panel. This one relates to the contact tab. Her love is like a drug. All my
+            girls vintage Chanel baby. Got a motel and built a fort out of sheets. 'Cause she’s the muse and the artist.
+            (This is how we do) So you wanna play with magic. So just be sure before you give it all to me. I'm walking,
+            I'm walking on air (tonight). Skip the talk, heard it all, time to walk the walk. Catch her if you can.
+            Stinging like a bee I earned my stripes.</p></div></div></div>
     </div>
     <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>bodydiv</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>nav-pills-vertical<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
   <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>section</span><span class="ph token punctuation">&gt;</span></span>
@@ -172,14 +143,12 @@
       <div class="col">
         <!-- Social Media -->
         <p class="text-center p-3">
-          <!-- Twitter -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/infotexture" role="button"><i class="bi bi-twitter"></i></a>
-          <!-- Slack -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #611f69" href="http://slack.dita-ot.org/" role="button"><i class="bi bi-slack"></i></a>
+          <!-- GitHub -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/infotexture/dita-bootstrap" role="button"><i class="bi bi-github"></i></a>
           <!-- Linkedin -->
           <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/infotexture/" role="button"><i class="bi bi-linkedin"></i></a>
-          <!-- Github -->
-          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/dita-ot/" role="button"><i class="bi bi-github"></i></a>
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="https://twitter.com/infotexture" role="button"><i class="bi bi-twitter"></i></a>
         </p>
       </div>
       <div>
@@ -187,7 +156,7 @@
         <p class="p-3">
           <small>
             © 2021
-            <a class="text-dark" href="https://infotexture.net/">Roger Fienhold Sheen</a>
+            <a class="text-dark" href="https://infotexture.net/">infotexture</a>
           </small>
         </p>
       </div>
