@@ -1,0 +1,935 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html prefix="og: http://ogp.me/ns#" lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="copyright" content="(C) Copyright 2022"><meta name="generator" content="DITA-OT"><meta name="twitter:title" content="Content"><meta name="og:title" content="Content"><meta name="keywords" content="Typography, CSS, outputclass, title, Images, image, scalefit, Tables, table, row, entry, Figure, fig"><meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/157444774/16262a80-490b-11eb-846c-cba270473d08"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="https://repository-images.githubusercontent.com/157444774/16262a80-490b-11eb-846c-cba270473d08"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="website"><title>Content</title><link rel="shortcut icon" href="./favicon.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/commonltr.css">
+<link rel="stylesheet" type="text/css" href="./css/common-extended.css"></head><body><div class="visually-hidden-focusable overflow-hidden p-2 bg-light"><div class="container-xl"><a class="d-inline-flex m-1 btn btn-outline-primary btn-sm">Skip to main content</a><a href="#bs-sidebar-nav" class="d-none d-md-inline-flex m-1 btn btn-outline-primary btn-sm">Skip to docs navigation</a></div></div><div class="bs-header"><header role="banner"><nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap" viewBox="0 0 16 16">
+        <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
+        <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
+      </svg>
+      DITA Bootstrap
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link One</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link Two</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link Three</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></header></div><div class="bs-container" id="content"><nav role="navigation" id="bs-sidebar-nav" class="flex-column bd-links"><ul class="list-unstyled mb-0 py-3 pt-md-1"><li></li><li><div class="d-flex flex-row" id="menu-collapse-trigger-d15613e15"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0" data-bs-target="#menu-collapse-d15613e15" aria-labelledby="menu-collapse-trigger-d15613e15" aria-controls="menu-collapse-d15613e15"></button><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-0" href="Chunk11760092.html#Chunk11760092">Getting Started</a></div><div id="menu-collapse-d15613e15" class="collapse "><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk11760092.html#index">DITA Bootstrap</a></div></li></ul></div></li><li><div class="d-flex flex-row" id="menu-collapse-trigger-d15613e39"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0" data-bs-target="#menu-collapse-d15613e39" aria-labelledby="menu-collapse-trigger-d15613e39" aria-controls="menu-collapse-d15613e39"></button><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-0" href="Chunk437290437.html#Chunk437290437">Layout</a></div><div id="menu-collapse-d15613e39" class="collapse "><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk437290437.html#grid">Grid System</a></div></li></ul></div></li><li><div class="d-flex flex-row" id="menu-collapse-trigger-d15613e57"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0 active" data-bs-target="#menu-collapse-d15613e57" aria-expanded="true" aria-current="true" aria-labelledby="menu-collapse-trigger-d15613e57" aria-controls="menu-collapse-d15613e57"></button><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-0 active" href="Chunk2050729693.html#Chunk2050729693">Content</a></div><div id="menu-collapse-d15613e57" class="collapse show"><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk2050729693.html#typography">Typography</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk2050729693.html#images">Images</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk2050729693.html#tables">Tables</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk2050729693.html#figures">Figures</a></div></li></ul></div></li><li><div class="d-flex flex-row" id="menu-collapse-trigger-d15613e106"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0" data-bs-target="#menu-collapse-d15613e106" aria-labelledby="menu-collapse-trigger-d15613e106" aria-controls="menu-collapse-d15613e106"></button><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-0" href="Chunk1343199979.html#Chunk1343199979">Components</a></div><div id="menu-collapse-d15613e106" class="collapse "><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#accordion">Accordion</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#alerts">Alerts</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#badges">Badges</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#breadcrumb">Breadcrumb</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#buttons">Buttons</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#button-group">Button Group</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#cards">Cards</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#carousel">Carousel</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#collapse">Collapse</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#list-group">List Group</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#offcanvas">Offcanvas</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#pagination">Pagination</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#popovers">Popovers</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#scrollspy">Scrollspy</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#tabs">Tabbed Dialogs</a></div></li><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1343199979.html#tooltips">Tooltips</a></div></li></ul></div></li><li><div class="d-flex flex-row" id="menu-collapse-trigger-d15613e278"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0" data-bs-target="#menu-collapse-d15613e278" aria-labelledby="menu-collapse-trigger-d15613e278" aria-controls="menu-collapse-d15613e278"></button><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-0" href="Chunk1091147460.html#Chunk1091147460">Utilities</a></div><div id="menu-collapse-d15613e278" class="collapse "><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="Chunk1091147460.html#cards">Borders, Color and Background</a></div></li></ul></div></li><li><div class="d-flex flex-row"><button data-bs-toggle="collapse" class="btn d-inline-flex align-items-center pe-0" data-bs-target="#menu-collapse-d15613e302"></button><span data-bs-toggle="collapse" class="link-primary d-inline-flex align-items-center flex-shrink-1 ps0" data-bs-target="#menu-collapse-d15613e302">Extend</span></div><div id="menu-collapse-d15613e302" class="collapse "><ul class="list-unstyled fw-normal"><li><div class="d-flex flex-row"><a class="link-primary d-inline-flex align-items-center flex-shrink-1 ps-3" href="icons.html">Icons</a></div></li></ul></div></li><li></li></ul></nav><main role="main" class="container bs-main"><article role="article" aria-labelledby="ariaid-title1"><article class="nested0" aria-labelledby="ariaid-title1" id="Chunk2050729693"><h1 class="title text-dark" id="ariaid-title1">Content</h1><article class="topic nested1" aria-labelledby="ariaid-title2" id="typography">
+  <h2 class="title text-dark" id="ariaid-title2">Typography</h2>
+  
+  
+  <div class="body language-markup"><p class="shortdesc text-muted lead">Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists,
+    and more.</p>
+    <section class="section"><h3 class="title h4 text-secondary">Headings</h3>
+      
+      <p class="p">All HTML headings, <code class="keyword markupname xmlelement">&lt;h1&gt;</code> through <code class="keyword markupname xmlelement">&lt;h6&gt;</code>, are available.
+          <code class="keyword markupname xmlatt">@outputclass="h1"</code> through <code class="keyword markupname xmlatt">@outputclass="h6"</code> are also available, for when you
+        want to match the font styling of a heading but cannot use the associated HTML element.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p h1">h1. Bootstrap heading</p>
+      <p class="p h2">h2. Bootstrap heading</p>
+      <p class="p h3">h3. Bootstrap heading</p>
+      <p class="p h4">h4. Bootstrap heading</p>
+      <p class="p h5">h5. Bootstrap heading</p>
+      <p class="p h6">h6. Bootstrap heading</p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h1. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h2<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h2. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h3<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h3. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h4<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h4. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h5<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h5. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>h6<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>h6. Bootstrap heading<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Customizing headings</h3>
+      
+      <p class="p">Annotate a <code class="keyword markupname xmlelement">&lt;ph&gt;</code> with an <code class="keyword markupname xmlatt">@outputclass</code> to recreate the small secondary
+        heading text from Bootstrap 3.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p h3">Fancy display heading <span class="ph small text-muted">with faded secondary text</span></p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span><span class="ph token punctuation">&gt;</span></span>Fancy display heading <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ph</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>small text-muted<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>with faded secondary text<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ph</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Display headings</h3>
+      
+      <p class="p">Traditional heading elements are designed to work best in the meat of your page content. When you need a
+        heading to stand out, consider using a display heading — a larger, slightly more opinionated heading style.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p display-1">Display 1</p>
+      <p class="p display-2">Display 2</p>
+      <p class="p display-3">Display 3</p>
+      <p class="p display-4">Display 4</p>
+      <p class="p display-5">Display 5</p>
+      <p class="p display-6">Display 6</p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 1<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-2<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 2<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-3<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 3<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-4<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 4<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-5<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 5<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>display-6<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>Display 6<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Lead</h3>
+      
+      <p class="p">Make a paragraph stand out by adding <code class="keyword markupname xmlatt">@outputclass="lead"</code> — this is automatically added to
+          <code class="keyword markupname xmlelement">&lt;shortdesc&gt;</code> elements.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p lead">This is a lead paragraph. It stands out from regular paragraphs.</p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>lead<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  This is a lead paragraph. It stands out from regular paragraphs.
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Inline text elements</h3>
+      
+      <p class="p">Styling for common inline HTML5 elements.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p">You can use <code class="keyword markupname xmlatt">@outputclass="mark"</code> to <span class="ph mark">highlight</span> text.</p>
+      <p class="p"><span class="ph line-through">This line of text is meant to be treated as deleted text.</span></p>
+      <p class="p"><u class="ph u">This line of text will render as underlined.</u></p>
+      <p class="p small">This line of text using <code class="keyword markupname xmlatt">@outputclass="small"</code> is meant to be treated as fine
+        print.</p>
+      <p class="p"><strong class="ph b">This line rendered as bold text.</strong></p>
+      <p class="p"><em class="ph i">This line rendered as italicized text.</em></p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>You can use <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>xmlatt</span><span class="ph token punctuation">&gt;</span></span>outputclass="mark"<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>xmlatt</span><span class="ph token punctuation">&gt;</span></span> to <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ph</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>mark<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>highlight<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ph</span><span class="ph token punctuation">&gt;</span></span> text.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>line-through</span><span class="ph token punctuation">&gt;</span></span>This line of text is meant to be treated as deleted
+  text.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>line-through</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>u</span><span class="ph token punctuation">&gt;</span></span>This line of text will render as underlined.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>u</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>small<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>This line of text using <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>xmlatt</span><span class="ph token punctuation">&gt;</span></span>outputclass="small"<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>xmlatt</span><span class="ph token punctuation">&gt;</span></span>
+  is meant to be treated as fine print.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>b</span><span class="ph token punctuation">&gt;</span></span>This line rendered as bold text.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>b</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>i</span><span class="ph token punctuation">&gt;</span></span>This line rendered as italicized text.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>i</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Text utilities</h3>
+      
+      <p class="p">Change text alignment, transform, style, weight, line-height, decoration and color with Bootstrap's
+        <a class="xref" href="Chunk1091147460.html#cards" title="Use border utilities to quickly style the border and border-radius of an element and convey meaning through color and background-color with a handful of color utility classes.">text and color utilities</a>.</p>
+    </section>
+
+    <section class="section"><h3 class="title h4 text-secondary">Abbreviations</h3>
+      
+      <p class="p">Stylized implementation of HTML’s <code class="keyword markupname xmlelement">&lt;abbr&gt;</code> element for abbreviations and acronyms to show
+        the expanded version on hover. Abbreviations have a default underline and gain a help cursor to provide
+        additional context on hover and to users of assistive technologies. </p>
+      <p class="p">Add <code class="keyword markupname xmlatt">@outputclass="initialism"</code> to an abbreviation for a slightly smaller font-size.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <p class="p">
+        <abbr title="attribute" class="ph abbreviation">attr</abbr>
+      </p>
+      <p class="p">
+        <abbr title="HyperText Markup Language" class="ph initialism">HTML</abbr>
+      </p>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ph</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>abbreviation<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">otherprops</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>title(attribute)<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>attr<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ph</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ph</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>initialism<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">otherprops</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>title(HyperText Markup Language)<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>HTML<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ph</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  </code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Blockquotes</h3>
+      
+      <p class="p">For quoting blocks of content from another source within your document, use the DITA
+          <code class="keyword markupname xmlelement">&lt;lq&gt;</code> element, it is styled automatically.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <blockquote class="lq blockquote">
+        <p class="p">A well-known quote, contained in a blockquote element.</p>
+      </blockquote>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>A well-known quote, contained in a blockquote element.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>lq</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Naming a source</h3>
+      
+      <p class="p">The HTML spec requires that blockquote attribution be placed outside the rendered HTML
+          <code class="keyword markupname xmlelement">&lt;blockquote&gt;</code> element. When providing attribution, wrap your the DITA
+          <code class="keyword markupname xmlelement">&lt;lq&gt;</code> in a <code class="keyword markupname xmlelement">&lt;fig&gt;</code> and add a <code class="keyword markupname xmlelement">&lt;title&gt;</code> to the
+          <code class="keyword markupname xmlelement">&lt;fig&gt;</code>. Be sure to wrap the name of the source work in the <code class="keyword markupname xmlelement">&lt;cite&gt;</code>
+        as well.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3">
+        
+        <blockquote class="lq blockquote">
+          <p class="p">A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+      <figcaption class="fig blockquote-footer"><span class="fig--title-label"></span>Someone famous in <cite class="cite">Source Title</cite></figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span><span class="ph token punctuation">&gt;</span></span>Someone famous in <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>cite</span><span class="ph token punctuation">&gt;</span></span>Source Title<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>cite</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>lq</span> <span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>A well-known quote, contained in a blockquote element.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Alignment</h3>
+      
+      <p class="p">Use text utilities such as <code class="keyword markupname xmlatt">@outputclass="text-center"</code> as needed to change the alignment of your
+        blockquote.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3 text-center">
+        
+        <blockquote class="lq blockquote">
+          <p class="p">A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+      <figcaption class="fig blockquote-footer text-center"><span class="fig--title-label"></span>Someone famous in <cite class="cite">Source Title</cite></figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>text-center<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span><span class="ph token punctuation">&gt;</span></span>Someone famous in <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>cite</span><span class="ph token punctuation">&gt;</span></span>Source Title<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>cite</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>A well-known quote, contained in a blockquote element.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3 text-end">
+        
+        <blockquote class="lq blockquote">
+          <p class="p">A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+      <figcaption class="fig blockquote-footer text-end"><span class="fig--title-label"></span>Someone famous in <cite class="cite">Source Title</cite></figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>text-end<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span><span class="ph token punctuation">&gt;</span></span>Someone famous in <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>cite</span><span class="ph token punctuation">&gt;</span></span>Source Title<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>cite</span><span class="ph token punctuation">&gt;</span></span><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>A well-known quote, contained in a blockquote element.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>lq</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+
+    <div class="div h2">Lists</div>
+    <section class="section"><h3 class="title h4 text-secondary h3">Unstyled</h3>
+      
+      <p class="p">Remove the default list-style and left margin on list items (immediate children only). This only applies to
+        immediate children list items, meaning you will need to add the <code class="keyword markupname xmlatt">@outputclass="list-unstyled"</code> for
+        any nested lists as well.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <ul class="ul list-unstyled">
+        <li class="li">This is a list.</li>
+        <li class="li">It appears completely unstyled.</li>
+        <li class="li">Structurally, it's still a list.</li>
+        <li class="li">However, this style <strong class="ph b">only applies to immediate child elements</strong>.</li>
+        <li class="li">Nested lists:
+          <ul class="ul">
+            <li class="li">are unaffected by this style</li>
+            <li class="li">will still show a bullet</li>
+            <li class="li">and have appropriate left margin</li>
+          </ul>
+        </li>
+        <li class="li">This may still come in handy in some situations.</li>
+      </ul>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ul</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>list-unstyled<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>This is a list.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>It appears completely unstyled.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>Structurally, it's still a list.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>However, this style <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>b</span><span class="ph token punctuation">&gt;</span></span>only applies to immediate child elements<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>b</span><span class="ph token punctuation">&gt;</span></span>.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>Nested lists:
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ul</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>are unaffected by this style<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>will still show a bullet<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>and have appropriate left margin<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ul</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>This may still come in handy in some situations.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ul</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary h3">Inline</h3>
+      
+      <p class="p">Remove a list’s bullets and apply some light margin using the
+        <code class="keyword markupname xmlatt">@outputclass="list-inline"</code> attribute.
+      </p>
+    </section>
+    <div class="bodydiv bd-example">
+      <ul class="ul list-inline">
+        <li class="li list-inline-item">This is a list item.</li>
+        <li class="li list-inline-item">And another one.</li>
+        <li class="li list-inline-item">But they're displayed inline.</li>
+      </ul>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>ul</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>list-inline<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>This is a list item.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>And another one.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>li</span><span class="ph token punctuation">&gt;</span></span>But they're displayed inline.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>li</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>ul</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary h3">Description list alignment</h3>
+      
+      <p class="p">Terms and descriptions align horizontally using Bootstrap's grid system of predefined classes. For longer
+        terms, text is truncated with an ellipsis.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <dl class="dl row">
+        
+          <dt class="dt col-sm-3 text-truncate dlterm">Description lists</dt>
+          <dd class="dd col-sm-9">A description list is perfect for defining terms.</dd>
+        
+        
+          <dt class="dt col-sm-3 text-truncate dlterm">Term</dt>
+          <dd class="dd col-sm-9">
+            <p class="p">Definition for the term.</p>
+            <p class="p">And some more placeholder definition text.</p>
+          </dd>
+        
+        
+          <dt class="dt col-sm-3 text-truncate dlterm">Another term</dt>
+          <dd class="dd col-sm-9">This definition is short, so no extra paragraphs or anything.</dd>
+        
+        
+          <dt class="dt col-sm-3 text-truncate dlterm">Truncated term is truncated</dt>
+          <dd class="dd col-sm-9">This can be useful when space is tight. Adds an ellipsis at the end.</dd>
+        
+        
+          <dt class="dt col-sm-3 text-truncate dlterm">Nesting</dt>
+          <dd class="dd col-sm-9">
+            <dl class="dl row">
+              
+                <dt class="dt col-sm-3 text-truncate dlterm">Nested definition list</dt>
+                <dd class="dd col-sm-9">I heard you like definition lists. Let me put a definition list inside your definition list.</dd>
+              
+            </dl>
+          </dd>
+        
+      </dl>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dl</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Description lists<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>A description list is perfect for defining terms.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Term<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>Definition for the term.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>p</span><span class="ph token punctuation">&gt;</span></span>And some more placeholder definition text.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>p</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Another term<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>This definition is short, so no extra paragraphs or anything.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Truncated term is truncated<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>This can be useful when space is tight. Adds an ellipsis at the end.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Nesting<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dl</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+          <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dt</span><span class="ph token punctuation">&gt;</span></span>Nested definition list<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dt</span><span class="ph token punctuation">&gt;</span></span>
+          <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>dd</span><span class="ph token punctuation">&gt;</span></span>I heard you like definition lists. Let me put a definition list
+            inside your definition list.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dl</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dd</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dlentry</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>dl</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+  </div>
+</article><article class="topic nested1" aria-labelledby="ariaid-title3" id="images">
+  <h2 class="title text-dark" id="ariaid-title3">Images</h2>
+  
+  
+  <div class="body language-markup"><p class="shortdesc text-muted lead">Documentation and examples for opting images into responsive behavior (so they never become larger than
+    their parent elements) and add lightweight styles to them—all via classes.</p>
+    <section class="section"><h3 class="title h4 text-secondary">Responsive images</h3>
+      
+      <p class="p">Images in DITA Bootstrap are made responsive with <code class="keyword markupname xmlatt">@scalefit="yes"</code>. This applies
+          <code class="ph codeph language-markup">max-width: 100%;</code> and <code class="ph codeph language-markup">height: auto;</code> to the image so that it scales with the
+        parent element.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <img class="image img-fluid" src="https://picsum.photos/1200/600?a">
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>image</span> <span class="ph token attr-name">scalefit</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>yes<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">href</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>...<span class="ph token punctuation">"</span></span> <span class="ph token punctuation">/&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Image thumbnails</h3>
+      
+      <p class="p">In addition to Bootstrap’s
+        <a class="xref" href="https://getbootstrap.com/docs/5.2/utilities/borders/" target="_blank" rel="external noopener">border-radius
+          utilities</a>, you can set <code class="keyword markupname xmlatt">@outputclass</code> to <code class="ph codeph language-markup">img-thumbnail</code> to give an image
+        a rounded 1px border appearance.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <img class="image img-thumbnail" src="https://picsum.photos/200/200?a">
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>image</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>img-thumbnail<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">href</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>...<span class="ph token punctuation">"</span></span> <span class="ph token punctuation">/&gt;</span></span></code></pre>
+  </div>
+</article><article class="topic nested1" aria-labelledby="ariaid-title4" id="tables">
+  <h2 class="title text-dark" id="ariaid-title4">Tables</h2>
+  
+  
+  <div class="body language-markup"><p class="shortdesc text-muted lead">Documentation and examples for styling DITA tables with Bootstrap classes.</p>
+    <section class="section"><h3 class="title h4 text-secondary">Overview</h3>
+      
+      <p class="p">Due to the widespread use of <code class="keyword markupname xmlelement">&lt;table&gt;</code> elements across third-party widgets like calendars
+        and date pickers, Bootstrap’s tables are opt-in. Extend with optional modifier outputclasses or custom styles.
+        All table styles are not inherited in Bootstrap, meaning any nested tables can be styled independent from the
+        parent.</p>
+      <p class="p">Using the most basic table markup, here’s how the default DITA Bootstrap <code class="ph codeph language-markup">.table</code>-based tables
+        look in Bootstrap</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__1">Animal</th>
+              <th class="entry align-top" id="tables__entry__2">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__1">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__2">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__1">Giraffe</td>
+              <td class="entry" headers="tables__entry__2">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__1">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__2">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__1">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__2">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Variants</h3>
+      
+      <p class="p">Use contextual classes to color tables, table rows or individual cells.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table"><colgroup><col style="width:50%"><col style="width:25%"><col style="width:25%"></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__11">Class</th>
+              <th class="entry align-top" id="tables__entry__12">Heading</th>
+              <th class="entry align-top" id="tables__entry__13">Heading</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__11">Default</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-primary">
+              <td class="entry" headers="tables__entry__11">Primary</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-secondary">
+              <td class="entry" headers="tables__entry__11">Secondary </td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-success">
+              <td class="entry" headers="tables__entry__11">Success</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-danger">
+              <td class="entry" headers="tables__entry__11">Danger</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-warning">
+              <td class="entry" headers="tables__entry__11">Warning</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-info">
+              <td class="entry" headers="tables__entry__11">Info</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-light">
+              <td class="entry" headers="tables__entry__11">Light</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+            <tr class="table-dark">
+              <td class="entry" headers="tables__entry__11">Dark</td>
+              <td class="entry" headers="tables__entry__12">Cell</td>
+              <td class="entry" headers="tables__entry__13">Cell</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-xml"><code>
+<span class="ph token comment">&lt;!-- On tables --&gt;</span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-primary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-secondary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-success<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-danger<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-warning<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-info<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-light<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-dark<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span>
+
+<span class="ph token comment">&lt;!-- On rows --&gt;</span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-primary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-secondary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-success<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-danger<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-warning<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-info<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-light<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">class</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-dark<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tr</span><span class="ph token punctuation">&gt;</span></span>
+
+<span class="ph token comment">&lt;!-- On cells (`td` or `th`) --&gt;</span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-primary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-secondary<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-success<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-danger<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-warning<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-info<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-light<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-dark<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>td</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>row</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Striped rows</h3>
+      
+      <p class="p">Use <code class="keyword markupname xmlatt">@outputclass</code> and add <code class="ph codeph language-markup">table-striped</code> to add zebra-striping to any table row
+        within the <code class="keyword markupname xmlelement">&lt;tbody&gt;</code>.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table table-striped"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__41">Animal</th>
+              <th class="entry align-top" id="tables__entry__42">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__41">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__42">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__41">Giraffe</td>
+              <td class="entry" headers="tables__entry__42">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__41">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__42">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__41">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__42">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-striped<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Striped columns</h3>
+      
+      <p class="p">Use <code class="keyword markupname xmlatt">@outputclass</code> and add <code class="ph codeph language-markup">table-striped-columns</code> to add zebra-striping to any table row
+        within the <code class="keyword markupname xmlelement">&lt;tbody&gt;</code>.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table table-striped-columns"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__51">Animal</th>
+              <th class="entry align-top" id="tables__entry__52">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__51">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__52">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__51">Giraffe</td>
+              <td class="entry" headers="tables__entry__52">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__51">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__52">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__51">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__52">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-striped-columns<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Bordered tables</h3>
+      
+      <p class="p">Add <code class="keyword markupname xmlatt">@rowsep="1"</code> and <code class="keyword markupname xmlatt">@colsep="1"</code> for borders on all sides of the table and cells.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table table-bordered"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__61">Animal</th>
+              <th class="entry align-top" id="tables__entry__62">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__61">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__62">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__61">Giraffe</td>
+              <td class="entry" headers="tables__entry__62">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__61">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__62">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__61">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__62">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">rowsep</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">colsep</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Tables without borders</h3>
+      
+      <p class="p">Add <code class="keyword markupname xmlatt">@rowsep="0"</code> and <code class="keyword markupname xmlatt">@colsep="0"</code> for a table without borders.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table table-borderless"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__71">Animal</th>
+              <th class="entry align-top" id="tables__entry__72">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__71">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__72">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__71">Giraffe</td>
+              <td class="entry" headers="tables__entry__72">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__71">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__72">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__71">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__72">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">rowsep</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">colsep</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>0<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Small Tables</h3>
+      
+      <p class="p">Add <code class="keyword markupname xmlatt">@outputclass="table-sm"</code> make any table more compact by cutting all cell <code class="ph codeph language-markup">padding</code> in half.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table table-sm"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__81">Animal</th>
+              <th class="entry align-top" id="tables__entry__82">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__81">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__82">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__81">Giraffe</td>
+              <td class="entry" headers="tables__entry__82">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__81">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__82">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__81">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__82">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-sm<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Table group dividers</h3>
+      
+      <p class="p">Add a thicker border, darker between table groups—<code class="keyword markupname xmlelement">&lt;thead&gt;</code> and <code class="keyword markupname xmlelement">&lt;tbody&gt;</code>, with <code class="keyword markupname xmlatt">@outputclass="table-group-divider"</code>.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table"><colgroup><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__91">Animal</th>
+              <th class="entry align-top" id="tables__entry__92">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody table-group-divider">
+            <tr>
+              <td class="entry" headers="tables__entry__91">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__92">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__91">Giraffe</td>
+              <td class="entry" headers="tables__entry__92">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__91">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__92">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__91">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__92">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-group-divider<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...etc
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Vertical alignment</h3>
+      
+      <p class="p">Table cells of <code class="keyword markupname xmlelement">&lt;thead&gt;</code> are always vertical aligned to the bottom. Table cells in <code class="keyword markupname xmlelement">&lt;tbody&gt;</code> inherit their alignment from <code class="keyword markupname xmlelement">&lt;table&gt;</code> and are aligned to the top by default. Use the <code class="keyword markupname xmlatt">@valign</code> attribute to re-align where needed.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table align-middle"><colgroup><col><col><col><col></colgroup><thead class="thead">
+            <tr>
+              <th class="entry align-top" id="tables__entry__101">Heading 1</th>
+              <th class="entry align-bottom" id="tables__entry__102">Heading 2</th>
+              <th class="entry align-middle" id="tables__entry__103">Heading 3</th>
+              <th class="entry" id="tables__entry__104">Heading 4 - here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the headers</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__101">This cell inherits <code class="keyword markupname xmlatt">@outputclass="align-middle"</code> from the table</td>
+              <td class="entry" headers="tables__entry__102">This cell inherits <code class="keyword markupname xmlatt">@outputclass="align-middle"</code> from the table</td>
+              <td class="entry" headers="tables__entry__103">This cell inherits <code class="keyword markupname xmlatt">@outputclass="align-middle"</code> from the table</td>
+              <td class="entry" headers="tables__entry__104">This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+            </tr>
+            <tr class="align-bottom ">
+              <td class="entry" headers="tables__entry__101">This cell inherits <code class="keyword markupname xmlatt">@valign="bottom"</code> from the table row</td>
+              <td class="entry" headers="tables__entry__102">This cell inherits <code class="keyword markupname xmlatt">@valign="bottom"</code> from the table row</td>
+              <td class="entry" headers="tables__entry__103">This cell inherits <code class="keyword markupname xmlatt">@valign="bottom"</code> from the table row</td>
+              <td class="entry" headers="tables__entry__104">This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__101">This cell inherits <code class="keyword markupname xmlatt">@outputclass="align-middle"</code> from the table</td>
+              <td class="entry" headers="tables__entry__102">This cell inherits <code class="keyword markupname xmlatt">@outputclass="align-middle"</code> from the table</td>
+              <td class="entry align-top" headers="tables__entry__103">This cell is aligned to the top.</td>
+              <td class="entry" headers="tables__entry__104">This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>align-middle<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>tgroup</span> <span class="ph token attr-name">cols</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>4<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>colspec</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC0<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>colspec</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC1<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>colspec</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC2<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>colspec</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC3<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>thead</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC0<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>top<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC1<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>bottom<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC2<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>middle<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">colname</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>COLSPEC3<span class="ph token punctuation">"</span></span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>middle<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>row</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>thead</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>tbody</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span><span class="ph token punctuation">&gt;</span></span>
+        ...
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>row</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>bottom<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+        ...
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>row</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>row</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span> <span class="ph token attr-name">valign</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>top<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+        <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>entry</span><span class="ph token punctuation">&gt;</span></span>...<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>entry</span><span class="ph token punctuation">&gt;</span></span>
+      <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>row</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tbody</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tgroup</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Table head</h3>
+      
+      <p class="p">Similar to tables and dark tables, use the modifier <code class="keyword markupname xmlatt">@outputclass="table-light"</code> or
+          <code class="keyword markupname xmlatt">@outputclass="table-dark"</code> to make <code class="keyword markupname xmlelement">&lt;thead&gt;</code> elements appear light or dark
+        gray.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <div><table class="table"><colgroup><col><col></colgroup><thead class="thead table-light">
+            <tr>
+              <th class="entry align-top" id="tables__entry__117">Animal</th>
+              <th class="entry align-top" id="tables__entry__118">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__117">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__118">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__117">Giraffe</td>
+              <td class="entry" headers="tables__entry__118">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__117">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__118">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__117">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__118">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>tgroup</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>thead</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-light<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+      ...etc
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>thead</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>tgroup</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <div class="bodydiv bd-example">
+      <div><table class="table"><colgroup><col><col></colgroup><thead class="thead table-dark">
+            <tr>
+              <th class="entry align-top" id="tables__entry__127">Animal</th>
+              <th class="entry align-top" id="tables__entry__128">Gestation</th>
+            </tr>
+          </thead><tbody class="tbody">
+            <tr>
+              <td class="entry" headers="tables__entry__127">Elephant (African and Asian)</td>
+              <td class="entry" headers="tables__entry__128">19-22 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__127">Giraffe</td>
+              <td class="entry" headers="tables__entry__128">15 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__127">Rhinoceros</td>
+              <td class="entry" headers="tables__entry__128">14-16 months</td>
+            </tr>
+            <tr>
+              <td class="entry" headers="tables__entry__127">Hippopotamus</td>
+              <td class="entry" headers="tables__entry__128">7 1/2 months</td>
+            </tr>
+          </tbody></table></div>
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>table</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>tgroup</span><span class="ph token punctuation">&gt;</span></span>
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>thead</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>table-dark<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+      ...etc
+    <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>thead</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>tgroup</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>table</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+  </div>
+</article><article class="topic nested1" aria-labelledby="ariaid-title5" id="figures">
+  <h2 class="title text-dark" id="ariaid-title5">Figures</h2>
+  
+  
+  <div class="body language-markup"><div class="abstract">
+    <p class="shortdesc text-muted lead">Documentation and examples for displaying related images and text with the figure component in
+      Bootstrap.</p>
+    <p class="p">Anytime you need to display a piece of content—like an image with an optional caption, consider using a DITA
+        <code class="keyword markupname xmlelement">&lt;fig&gt;</code> element. Bootstrap CSS classes <code class="keyword markupname xmlatt">@class="figure"</code>,
+        <code class="keyword markupname xmlatt">@class="figure-img"</code>, and <code class="keyword markupname xmlatt">@class="figure-caption"</code> are automatically included to
+      the output to provide some baseline styles for the HTML5 <code class="keyword markupname xmlelement">&lt;figure&gt;</code> and
+        <code class="keyword markupname xmlelement">&lt;figcaption&gt;</code> elements. </p>
+  </div>
+    <section class="section"><h3 class="title h4 text-secondary">Example</h3>
+      
+      <p class="p">By default <code class="keyword markupname xmlelement">&lt;figure&gt;</code> elements are styled as shown: </p>
+    </section>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3">
+        
+        <img class="image figure-img img-fluid border rounded" src="https://picsum.photos/1200/600?a">
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 4. </span>A caption for the image.</figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span><span class="ph token punctuation">&gt;</span></span>A caption for the image.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>image</span> <span class="ph token attr-name">href</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>...<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+    <section class="section"><h3 class="title h4 text-secondary">Aligning text</h3>
+      
+      <p class="p">The figure’s caption can be aligned using the Bootstrap
+        <a class="xref" href="Chunk1091147460.html#colors">text utilities</a>.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3">
+        
+        <img class="image figure-img img-fluid border rounded" src="https://picsum.photos/1200/600?b">
+      <figcaption class="fig figure-caption text-end"><span class="fig--title-label">Figure 5. </span>A caption for the image.</figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>title</span> <span class="ph token attr-name">outputclass</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>text-end<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>A caption for the image.<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>title</span><span class="ph token punctuation">&gt;</span></span>
+  <span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>image</span> <span class="ph token attr-name">href</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>...<span class="ph token punctuation">"</span></span><span class="ph token punctuation">/&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span></code></pre>
+
+    <section class="section"><h3 class="title h4 text-secondary">Adding borders</h3>
+      
+      <p class="p">Use the DITA <code class="keyword markupname xmlatt">@frame</code> attribute to add
+        <a class="xref" href="Chunk1091147460.html#borders">borders</a> to a <code class="keyword markupname xmlelement">&lt;fig&gt;</code>.</p>
+    </section>
+    <div class="bodydiv bd-example">
+      <figure class="fig figure w-100 mw-100 p-3 border">
+        
+        <pre class="pre codeblock border rounded language-markup"><code>frame="all"</code></pre>
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 6. </span>All Borders</figcaption></figure>
+
+      <p class="p"></p>
+      <figure class="fig figure w-100 mw-100 p-3 border-top border-bottom">
+        
+        <pre class="pre codeblock border rounded language-markup"><code>frame="topbot"</code></pre>
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 7. </span>Top and Bottom Borders</figcaption></figure>
+
+      <p class="p"></p>
+      <figure class="fig figure w-100 mw-100 p-3 border-start border-end">
+        
+        <pre class="pre codeblock border rounded language-markup"><code>frame="sides"</code></pre>
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 8. </span>Side Borders</figcaption></figure>
+
+      <p class="p"></p>
+      <figure class="fig figure w-100 mw-100 p-3 border-top">
+        
+        <pre class="pre codeblock border rounded language-markup"><code>frame="top"</code></pre>
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 9. </span>Top Border only</figcaption></figure>
+
+      <p class="p"></p>
+      <figure class="fig figure w-100 mw-100 p-3 border-bottom">
+        
+        <pre class="pre codeblock border rounded language-markup"><code>frame="bottom"</code></pre>
+      <figcaption class="fig figure-caption"><span class="fig--title-label">Figure 10. </span>Bottom Border Only</figcaption></figure>
+
+    </div>
+    <pre class="pre codeblock border rounded language-markup"><code><span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">frame</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>all<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">frame</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>topbot<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">frame</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>sides<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">frame</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>top<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;</span>fig</span> <span class="ph token attr-name">frame</span><span class="ph token attr-value"><span class="ph token punctuation">=</span><span class="ph token punctuation">"</span>bottom<span class="ph token punctuation">"</span></span><span class="ph token punctuation">&gt;</span></span>
+  ...
+<span class="ph token tag"><span class="ph token tag"><span class="ph token punctuation">&lt;/</span>fig</span><span class="ph token punctuation">&gt;</span></span>
+    </code></pre>
+  </div>
+</article></article></article></main></div></body></html>
