@@ -38,17 +38,15 @@
           <a class="nav-link" href="https://getbootstrap.com/docs/5.3">Bootstrap Docs</a>
         </li>
       </ul>
-      <ul class="navbar-nav ms-auto">
-        <!--
-          This is a lunr.js search box
-          It requires JavaScript to function.
-        -->
+     <ul class="navbar-nav ms-auto">
         <li class="nav-item d-flex align-items-center">
-          <span class="nav-link pe-2">
-            <i class="bi bi-search"></i>
-          </span>
-          <form class="bd-search position-relative me-auto" onsubmit="return search(this);">
-            <input type="search" class="form-control ds-input" id="search-input" placeholder="Search…" aria-label="Search for…" dir="auto" style="position: relative; vertical-align: top;">
+          <form class="position-relative me-auto search-box">
+            <div class="input-group">
+              <span class="input-group-text bg-primary-subtle">
+                <i class="bi bi-search"></i>
+              </span>
+              <input type="search" class="form-control form-floating" placeholder="Search…" aria-label="Search for…" dir="auto">
+            </div>
           </form>
         </li>
         <!--
