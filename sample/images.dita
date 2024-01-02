@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<!-- Within the sample documentation, where necessary, the texts describing the
-   usage of each component have been copied directly from the official Bootstrap
-   5.3 documentation (found at https://getbootstrap.com/docs/5.3), however DITA
+<!--
+
+   Bootstrap Extension is designed and built by Peter Joiner.
+   The code is licensed using MIT. Copyright (c) 2018-2023 Peter  Joiner — AKK IT, Inc.
+
+   Within this documentation, where necessary, the texts describing the bootstrap extension usage of each component have been copied directly from the Bootstrap Extension
+   documentation however DITA
    markup is used throughout the examples describing how to implement these
    components correctly using outputclass.
 
-   This work, is a derivative of "Bootstrap 5.3 docs" by Twitter, Inc.
-   and the Bootstrap Authors, and used under CC BY 3.0. See the accompanying LICENSE
+   This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
    file for applicable licenses.-->
 <topic id="images">
   <title>Images</title>
-  <shortdesc>Documentation and examples for opting images into responsive behavior (so they never become larger than
-    their parent elements) and add lightweight styles to them—all via classes.</shortdesc>
+  <shortdesc>Additional grayscale and hover effects for figures and images</shortdesc>
   <prolog>
     <metadata>
       <keywords>
@@ -21,60 +23,195 @@
           <indexterm><xmlatt>outputclass</xmlatt></indexterm>
         </indexterm>
         <indexterm><xmlelement>image</xmlelement></indexterm>
-        <indexterm><xmlatt>scalefit</xmlatt></indexterm>
       </keywords>
     </metadata>
   </prolog>
   <body outputclass="language-markup">
     <section>
-      <title>Responsive images</title>
-      <p>Images in DITA Bootstrap are made responsive with <xmlatt>scalefit="yes"</xmlatt>. This applies
-          <codeph>max-width: 100%;</codeph> and <codeph>height: auto;</codeph> to the image so that it scales with the
-        parent element.</p>
+      <title>Grayscale images</title>
+      <p>Use the <codeph>.grayscale</codeph>, <codeph>.hover-color</codeph> and <codeph
+        >.hover-grayscale</codeph> outputclasses to the grayscale figures and images.</p>
     </section>
-    <bodydiv outputclass="bd-example" deliveryTarget="html">
-      <image scalefit="yes" scope="external" href="https://picsum.photos/1200/600?a"/>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-md grayscale">
+          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Grayscale image</p>
+        </div>
+        <div outputclass="col-md hover-color">
+          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Color image on hover</p>
+        </div>
+        <div outputclass="col-md hover-grayscale">
+          <image scope="external" href="https://picsum.photos/id/493/1200/600"/>
+          <p>Grayscale image on hover</p>
+        </div>
+      </div>
     </bodydiv>
-    <codeblock>&lt;image scalefit="yes" href="..." /&gt;</codeblock>
+    <codeblock>&lt;div outputclass="grayscale"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-color"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-grayscale"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
     <section>
-      <title>Image thumbnails</title>
-      <p>In addition to Bootstrap’s
-        <xref href="https://getbootstrap.com/docs/5.3/utilities/borders/" format="html" scope="external">border-radius
-          utilities</xref>, you can set <xmlatt>outputclass</xmlatt> to <codeph>img-thumbnail</codeph> to give an image
-        a rounded 1px border appearance.</p>
+      <title>Hover zoom</title>
+      <p>Drag the mouse over the images and the <codeph>hover-zoom-sm</codeph>, <codeph>hover-zoom</codeph> and <codeph
+        >hover-zoom-lg</codeph> outputclasses will magnify them.</p>
     </section>
-    <bodydiv outputclass="bd-example" deliveryTarget="html">
-      <image outputclass="img-thumbnail" scope="external" href="https://picsum.photos/200/200?a"/>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-md hover-zoom-sm">
+          <image scope="external" href="https://picsum.photos/1200/600?o"/>
+          <p>Small Zoom</p>
+        </div>
+        <div outputclass="col-md hover-zoom">
+          <image scope="external" href="https://picsum.photos/1200/600?p"/>
+          <p>Medium Zoom</p>
+        </div>
+        <div outputclass="col-md hover-zoom-lg">
+          <image scope="external" href="https://picsum.photos/1200/600?q"/>
+          <p>Large zoom</p>
+        </div>
+    </div>
     </bodydiv>
-    <codeblock>&lt;image outputclass="img-thumbnail" href="..." /&gt;</codeblock>
+<codeblock>&lt;div outputclass="hover-zoom-sm"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-zoom"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-zoom-lg"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
     <section>
-      <title>Separate images for dark and light mode</title>
-      <p>Use the <xmlatt>outputclass="d-auto"</xmlatt>, <xmlatt>outputclass="d-light"</xmlatt>,
-        and <xmlatt>outputclass="d-dark"</xmlatt> attributes on <xmlelement>image</xmlelement> elements
-        to display different images when in <xref href="./dark-mode.dita">dark mode</xref>.</p>
+      <title>Fade in overlay</title>
+        <p>Hover over the image to see the effect. Just use the <codeph
+        >hover-fade-in-overlay</codeph> outputclass and the <codeph
+        >overlay-{visibility}</codeph> outputclasses for this effect. Use the <codeph>from-t</codeph> and <codeph
+        >from-b</codeph> classes to specify the direction of the sliding content.
+      </p>
+      <p>
+        Where visibility is one of:
+      </p>
+      <ul>
+        <li>25 - for class that set opacity 25%</li>
+        <li>50 - for class that set opacity 50%</li>
+        <li>75 - for class that set opacity 75%</li>
+        <li>100 - for class that set opacity 100%</li>
+      </ul>
     </section>
-    <bodydiv outputclass="bd-example" deliveryTarget="html">
-      <fig>
-        <image outputclass="img-thumbnail d-auto" scope="external" href="https://picsum.photos/id/730/300/200"/>
-        <image
-          outputclass="img-thumbnail d-light"
-          scope="external"
-          href="https://picsum.photos/id/730/300/200"
-          deliveryTarget="html"
-        />
-        <image
-          outputclass="img-thumbnail d-dark"
-          scope="external"
-          href="https://picsum.photos/id/724/300/200"
-          deliveryTarget="html"
-        />
-      </fig>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="col-md">
+          <div outputclass="hover-fade-in-overlay">
+              <image scope="external" href="https://picsum.photos/id/1080/1200/800"/>
+              <div outputclass="overlay-100">
+                  <p outputclass="display-7 text-light">Strawberries!</p>
+              </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Veeterzy</p>
+        </div>
+        <div outputclass="col-md">
+          <div outputclass="hover-fade-in-overlay">
+            <image scope="external" href="https://picsum.photos//id/798/1200/800"/>
+            <div outputclass="overlay-100 from-t bg-rose">
+              <p outputclass="display-7 text-light">It is a daisy!</p>
+            </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Aaron Burden</p>
+        </div>
+        <div outputclass="col-md">
+          <div outputclass="hover-fade-in-overlay hover-zoom hover-grayscale">
+            <image scope="external" href="https://picsum.photos/id/976/1200/800"/>
+            <div outputclass="overlay-75 from-b bg-black">
+              <p outputclass="display-7 text-light">It is a tulip!</p>
+              <p outputclass="text-light">It is a paragraph!</p>
+              <p><xref outputclass="btn btn-warning" href="#">Button</xref></p>
+            </div>
+          </div>
+          <p outputclass="text-secondary">Photo: Ales Krivec</p>
+        </div>
+      </div>
     </bodydiv>
-    <codeblock> &lt;fig&gt;
-  &lt;image outputclass="img-thumbnail d-auto" href="..."/&gt;
-  &lt;image outputclass="img-thumbnail d-light" href="..." deliveryTarget="html"/&gt;
-  &lt;image outputclass="img-thumbnail d-dark" href="..." deliveryTarget="html"/&gt;
-&lt;/fig&gt;
-    </codeblock>
+    <codeblock>&lt;div outputclass="hover-fade-in-overlay"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-100"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;Strawberries!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-fade-in-overlay"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-100 from-t bg-rose"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;It is a daisy!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div outputclass="hover-fade-in-overlay"&gt;
+  &lt;image href="..."/&gt;
+  &lt;div outputclass="overlay-75 from-b bg-black"&gt;
+      &lt;p outputclass="display-7 text-light"&gt;It is a tulip!&lt;/p&gt;
+      &lt;p outputclass="text-light"&gt;It is a paragraph!&lt;/p&gt;
+      &lt;p&gt;&lt;xref outputclass="btn btn-warning" href="#"&gt;Button&lt;/xref&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</codeblock>
+    <section>
+      <title>Monochromatic images</title>
+      <p>Use <xmlatt>outputclass="monochrome-{color}"</xmlatt> if you want a monochrome image</p>
+    </section>
+    <bodydiv outputclass="bd-example container" deliveryTarget="html">
+      <div outputclass="row">
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-blue">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-brown">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-fresh">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-gold">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-gray">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-green">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-red">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+        <div outputclass="m-2 col-md-4 col-xl-3 monochromatic-purple">
+          <image scope="external" href="https://picsum.photos/1200/600?u"/>
+        </div>
+      </div>
+    </bodydiv>
+    <codeblock>&lt;div outputclass="monochromatic-blue"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-brown"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-fresh"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-gold"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-gray"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-green"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-red"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;
+&lt;div outputclass="monochromatic-purple"&gt;
+  &lt;image href="..."/&gt;
+&lt;/div&gt;</codeblock>
   </body>
 </topic>

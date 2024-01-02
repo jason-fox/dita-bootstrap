@@ -21,9 +21,7 @@
       <othermeta name="icon" content="bi-grid-fill"/>
       <othermeta name="icon-style" content="color: var(--bs-teal)"/>
     </topicmeta>
-    <topicref href="nav.dita"/>
     <topicref href="grid.dita"/>
-    <topicref href="rtl.dita" navtitle="Right-to-Left Languages" locktitle="yes"/>
   </chapter>
   <chapter>
     <topicmeta>
@@ -33,8 +31,7 @@
     </topicmeta>
     <topicref href="typography.dita"/>
     <topicref href="images.dita"/>
-    <topicref href="tables.dita"/>
-    <topicref href="figures.dita"/>
+    <topicref href="underlines.dita"/>
   </chapter>
   <chapter>
     <topicmeta>
@@ -42,22 +39,10 @@
       <othermeta name="icon" content="bi-menu-button-wide-fill"/>
       <othermeta name="icon-style" content="color: var(--bs-cyan)"/>
     </topicmeta>
-    <topicref href="accordion.dita"/>
-    <topicref href="alerts.dita"/>
-    <topicref href="badge.dita"/>
-    <topicref href="breadcrumb.dita"/>
-    <topicref href="buttons.dita"/>
-    <topicref href="button-group.dita"/>
-    <topicref href="card.dita"/>
     <topicref href="carousel.dita"/>
-    <topicref href="collapse.dita"/>
-    <topicref href="list-group.dita"/>
-    <topicref href="offcanvas.dita"/>
-    <topicref href="pagination.dita"/>
-    <topicref href="popovers.dita"/>
-    <topicref href="scrollspy.dita"/>
-    <topicref href="tabs.dita"/>
-    <topicref href="tooltips.dita"/>
+    <topicref href="counter.dita"/>
+    <topicref href="parallax.dita"/>
+    <topicref href="to-top.dita"/>
   </chapter>
   <chapter>
     <topicmeta>
@@ -66,39 +51,7 @@
       <othermeta name="icon-style" content="color: var(--bs-pink)"/>
     </topicmeta>
     <topicref href="utilities.dita" navtitle="Borders and Colors" locktitle="yes"/>
-  </chapter>
-  <chapter>
-    <topicmeta>
-      <navtitle>Extend</navtitle>
-      <othermeta name="icon" content="bi-tools"/>
-      <othermeta name="icon-style" content="color: var(--bs-blue)"/>
-    </topicmeta>
-    <topicref navtitle="Icons" href="icons.dita">
-      <topicmeta>
-        <othermeta name="icon" content="bi-images"/>
-      </topicmeta>
-    </topicref>
-    <topicref href="dark-mode.dita">
-      <topicmeta>
-        <othermeta name="icon" content="bi-moon-stars"/>
-      </topicmeta>
-    </topicref>
-    <topicref href="search-box.dita">
-      <topicmeta>
-        <othermeta name="icon" content="bi-search"/>
-        <othermeta name="divider" content="Additional Plug-ins"/>
-      </topicmeta>
-    </topicref>
-    <topicref href="offline.dita">
-      <topicmeta>
-        <othermeta name="icon" content="bi-wifi-off"/>
-      </topicmeta>
-    </topicref>
-    <topicref href="sass.dita">
-      <topicmeta>
-        <othermeta name="icon" content="bi-filetype-sass"/>
-      </topicmeta>
-    </topicref>
+    <topicref href="spacing.dita"/>
   </chapter>
   <backmatter deliveryTarget="pdf">
     <booklists>

@@ -12,19 +12,26 @@
 
    This work, is a derivative of "Bootstrap Extension docs" by AKK IT, Inc, and used under MIT. See the accompanying LICENSE
    file for applicable licenses.-->
-<topic id="extension">
-  <title>Bootstrap Extensions</title>
+<topic id="to-top">
+  <title>toTop</title>
   <shortdesc
-  >Incorporate the Bootstrap Extension as a separate plugin to add everything that may be useful but missing from  Bootstrap 5.x.</shortdesc>
-
+  >The Bootstrap extension supports the toTop button. Use the toTop id in the div tag and the toTop button scrolls up the page.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>To Top</indexterm>
+        <indexterm>CSS
+          <indexterm><xmlatt>outputclass</xmlatt></indexterm>
+        </indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
   <body outputclass="language-markup">
-    <section>
-      <title outputclass="h3">Installing</title>
-      <p>Use the <cmdname>dita</cmdname> command to add bootstrap extentsion plug-in to your DITA Open Toolkit
-        installation:</p>
-      <codeblock outputclass="language-bash"><cmdname>dita</cmdname> <parmname>install</parmname> fox.jason.extend.css
-<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap
-<cmdname>dita</cmdname> <parmname>install</parmname> net.infotexture.dita-bootstrap.extension</codeblock>
-    </section>
+      <div outputclass="bg-sky text-white me-5 mb-5 p-3 rounded-circle" id="toTop">
+      </div>
+      <codeblock>&lt;div outputclass="bg-sky text-white me-5 mb-5 p-3 rounded-circle"
+  id="toTop"/&gt;
+&lt;/div&gt;</codeblock>
+
   </body>
 </topic>
